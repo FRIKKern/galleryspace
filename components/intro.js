@@ -1,5 +1,4 @@
 import { CMS_NAME, CMS_URL } from "../lib/constants";
-import Form from "./form";
 
 export default function Intro() {
   return (
@@ -10,7 +9,6 @@ export default function Intro() {
       <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
         Ditt eget moderne nettgalleri.
       </h4>
-      <Form />
     </section>
   );
 }
