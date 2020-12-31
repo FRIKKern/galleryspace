@@ -18,11 +18,7 @@ export default function Intro() {
           <br /> din ligger pent og kategorisert.
         </h4>
       </section>
-      <section className="flex-col md:flex-row flex  ">
-        <h2 className="text-center md:text-left md:text-3xl  mt-5">
-          Interessert? Legg igjen emailen din her 😍
-        </h2>
-      </section>
+
       <Form />
 
       <section className="mb-12">
