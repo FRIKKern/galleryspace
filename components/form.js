@@ -25,16 +25,22 @@ export default function Form({ _id }) {
 
   if (isSubmitting) {
     return (
-      <h2 className="md:text-3xl mt-5">Magiske teknologiske ting ogsånt ⚙️</h2>
+      <section className="flex-col md:flex-row flex  ">
+        <h2 className="md:text-3xl mt-5">
+          Magiske teknologiske ting ogsånt ⚙️
+        </h2>
+      </section>
     );
   }
   if (hasSubmitted) {
     return (
       <>
-        <h2 className="md:text-3xl mt-5">
-          Takk for din henvendelse {formData.email} ! 👏
-          <br />
-        </h2>
+        <section className="flex-col md:flex-row flex  ">
+          <h2 className="md:text-3xl mt-5">
+            Takk for din henvendelse {formData.email} ! 👏
+            <br />
+          </h2>
+        </section>
       </>
     );
   }
