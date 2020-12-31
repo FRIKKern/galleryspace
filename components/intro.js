@@ -13,7 +13,7 @@ export default function Intro() {
         </h4>
       </section>
       <section className="flex-col md:flex-row flex items-center md:justify-between  mb-10  ">
-        <h4 className="text-center md:text-left md:text-2xl  mt-5">
+        <h4 className="text-gray text-center md:text-left md:text-2xl  mt-5">
           Ditt eget galleri på nett, hvor kunsten
           <br /> din ligger pent og kategorisert.
         </h4>
