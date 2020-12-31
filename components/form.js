@@ -24,7 +24,9 @@ export default function Form({ _id }) {
   };
 
   if (isSubmitting) {
-    return <h3 className="md:text-3xl">Magiske teknologiske ting ogsånt ⚙️</h3>;
+    return (
+      <h2 className="md:text-3xl mt-5">Magiske teknologiske ting ogsånt ⚙️</h2>
+    );
   }
   if (hasSubmitted) {
     return (
