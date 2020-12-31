@@ -25,18 +25,7 @@ export default function Intro() {
           </p>
         </section>
       </div>
-      <div className="justify-end grid ">
-        <section className="flex-col md:flex-row flex md:justify-between mt-20">
-          <ul className="leading-relaxed text-right	 text-2xl md:text-6xl font-bold tracking-tighter leading-tight md:pr-8">
-            <li className="cursor-pointer	opacity-50 hover:opacity-100">
-              Gallerier
-            </li>
-            <li className="cursor-pointer	opacity-50 hover:opacity-100">
-              Om Galleryspace
-            </li>
-          </ul>
-        </section>
-      </div>
+      <div className="justify-end grid "></div>
     </div>
   );
 }
