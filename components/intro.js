@@ -1,5 +1,5 @@
 import { CMS_NAME, CMS_URL } from "../lib/constants";
-import Newsletter from "./newsletter";
+import Newsletter from "../components/newsletter";
 
 export default function Intro() {
   return (
