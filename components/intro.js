@@ -1,4 +1,5 @@
 import { CMS_NAME, CMS_URL } from "../lib/constants";
+import Newsletter from "./Newsletter";
 
 export default function Intro() {
   return (
@@ -38,6 +39,7 @@ export default function Intro() {
           Vi vil sende deg tilbakemelding innen 48 timer på vanlige hverdager
         </p>
       </section>
+      <Newsletter />
     </>
   );
 }
