@@ -3,7 +3,7 @@ import Form from "../components/form";
 
 export default function Intro() {
   return (
-    <div className="grid grid-cols-2">
+    <div className="grid lg:grid-cols-2">
       <div>
         <section className="flex-col md:flex-row flex items-center md:justify-between mt-16 ">
           <h1 className="text-6xl md:text-8xl font-bold tracking-tighter leading-tight md:pr-8">
