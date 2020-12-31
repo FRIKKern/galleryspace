@@ -24,7 +24,7 @@ export default function Form({ _id }) {
   };
 
   if (isSubmitting) {
-    return <h3>Submitting comment…</h3>;
+    return <h3 className="md:text-3xl">Magiske teknologiske ting ogsånt ⚙️</h3>;
   }
   if (hasSubmitted) {
     return (
