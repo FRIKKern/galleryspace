@@ -1,5 +1,6 @@
 import { CMS_NAME, CMS_URL } from "../lib/constants";
 import Form from "../components/form";
+import Image from "next/image";
 
 export default function Intro() {
   return (
@@ -11,7 +12,7 @@ export default function Intro() {
           </h1>
         </section>
         <section className="flex-col md:flex-row flex items-center md:justify-between  mb-10  ">
-          <h4 className="text-gray text-center md:text-left md:text-2xl  mt-5">
+          <h4 className="text-gray text-center md:text-left md:text-2xl  opacity-75 mt-5">
             Ditt eget galleri på nett, hvor kunsten
             <br /> din ligger pent og kategorisert.
           </h4>
@@ -20,12 +21,19 @@ export default function Intro() {
         <Form />
 
         <section className="mb-12">
-          <p>
+          <p className="opacity-75">
             Vi vil sende deg tilbakemelding innen 48 timer på vanlige hverdager
           </p>
         </section>
       </div>
-      <div className="justify-end grid "></div>
+      <div className="mt-32">
+        <Image
+          src="/galleryspace-mockup.jpg"
+          alt="me"
+          width={1683}
+          height={1084}
+        />
+      </div>
     </div>
   );
 }

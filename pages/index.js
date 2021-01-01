@@ -18,8 +18,6 @@ export default function Index({ allPosts, preview }) {
         </Head>
         <Container>
           <Intro />
-
-          {morePosts.length > 0 && <MoreStories posts={morePosts} />}
         </Container>
       </Layout>
     </>
