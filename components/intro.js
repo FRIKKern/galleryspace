@@ -4,8 +4,8 @@ import Image from "next/image";
 
 export default function Intro() {
   return (
-    <div className="grid lg:grid-cols-2">
-      <div>
+    <div className="intro-row grid lg:grid-cols-2">
+      <div className="text-column">
         <section className="flex-col md:flex-row flex items-center md:justify-between mt-16 ">
           <h1 className="text-6xl md:text-8xl font-bold tracking-tighter leading-tight md:pr-8">
             Galleryspace
@@ -26,7 +26,7 @@ export default function Intro() {
           </p>
         </section>
       </div>
-      <div className="mt-32">
+      <div className="picture-column mt-32 ">
         <Image
           src="/galleryspace-mockup.jpg"
           alt="me"
