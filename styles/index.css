@@ -8,18 +8,30 @@ article a {
 /* purgecss end ignore */
 @tailwind utilities;
 
-@media only screen and (max-width: 600px) {
-  .intro-row {
-    grid-template-areas:
-      "picture-column"
-      "text-column";
-  }
+.min-h-screen {
+  display: grid;
+}
 
+main {
+  display: grid;
+  align-items: center;
+}
+
+.container {
+  max-width: 1500px;
+}
+
+@media only screen and (max-width: 600px) {
   .picture-column {
     grid-area: picture-column;
   }
 
   .text-column {
     grid-area: text-column;
+  }
+  .intro-row {
+    grid-template-areas:
+      "picture-column"
+      "text-column";
   }
 }
