@@ -13,8 +13,9 @@ export default function Intro() {
         </section>
         <section className="flex-col md:flex-row flex items-center md:justify-between  mb-10  ">
           <h4 className="text-gray text-center md:text-left md:text-2xl  opacity-75 mt-5">
-            Din egen nettside med galleri på nett.
-            <br /> La kunsten din ligge pent og kategorisert.
+            Selg kunsten din enklere med Galleryspace.
+            <br /> Galleryspace tilbyr personlig nettgalleri laget for
+            kunstnere.
           </h4>
         </section>
 
