@@ -26,9 +26,7 @@ export default function Form({ _id }) {
   if (isSubmitting) {
     return (
       <section className="flex-col md:flex-row flex">
-        <h2 className="md:text-3xl mt-5">
-          Magiske teknologiske ting ogsånt ⚙️
-        </h2>
+        <h2 className="md:text-3xl mt-5">Registrerer e-mailadresse ⚙️</h2>
       </section>
     );
   }
