@@ -13,8 +13,8 @@ export default function Intro() {
         </section>
         <section className="flex-col md:flex-row flex items-center md:justify-between  mb-10  ">
           <h4 className="text-gray text-center md:text-left md:text-2xl  opacity-75 mt-5">
-            Ditt eget galleri på nett, hvor kunsten
-            <br /> din ligger pent og kategorisert.
+            Din egen nettside med galleri på nett.
+            <br /> La kunsten din ligge pent og kategorisert.
           </h4>
         </section>
 
@@ -22,7 +22,7 @@ export default function Intro() {
 
         <section className="mb-12">
           <p className="opacity-75">
-            Vi vil sende deg tilbakemelding innen 48 timer på vanlige hverdager
+            Vi sender deg tilbakemelding innen tre virkedager.
           </p>
         </section>
       </div>
