@@ -27,7 +27,7 @@ export default function Intro() {
           </p>
         </section>
       </div>
-      <div className="picture-column mt-6 ">
+      <div className="picture-column ">
         <Image
           src="/galleryspace-mockup.jpg"
           alt="me"
